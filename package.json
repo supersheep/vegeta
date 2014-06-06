@@ -1,0 +1,34 @@
+{
+  "name": "vegeta",
+  "version": "0.1.0",
+  "description": "icon-font set for Dianping",
+  "main": "index.js",
+  "repository": "git://code.dianpingoa.com/neurons/vegeta.git",
+  "keywords": [
+    "iconfont"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "supersheep",
+    "email": "supersheepxjy@gmail.com"
+  },
+  "bugs": {
+    "url": "http://code.dianpingoa.com/neurons/vegeta/issues"
+  },
+  "homepage": "http://code.dianpingoa.com/neurons/vegeta",
+  "devDependencies": {
+    "gulp": "^3.7.0",
+    "gulp-stylus": "^1.0.2",
+    "gulp-iconfont": "0.0.12"
+  },
+  "dependencies": {
+    "gulp-iconfont-css": "0.0.9",
+    "gulp-ttf2eot": "0.0.8",
+    "gulp-ttf2woff": "0.0.6",
+    "gulp-svg2ttf": "0.0.7",
+    "gulp-svgicons2svgfont": "0.0.12",
+    "gulp-template": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "q": "^1.0.1"
+  }
+}

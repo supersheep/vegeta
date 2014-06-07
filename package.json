@@ -19,16 +19,15 @@
   "devDependencies": {
     "gulp": "^3.7.0",
     "gulp-stylus": "^1.0.2",
-    "gulp-iconfont": "0.0.12"
-  },
-  "dependencies": {
-    "gulp-iconfont-css": "0.0.9",
     "gulp-ttf2eot": "0.0.8",
-    "gulp-ttf2woff": "0.0.6",
+    "gulp-ttf2woff": "https://github.com/supersheep/gulp-ttf2woff/tarball/master",
     "gulp-svg2ttf": "0.0.7",
     "gulp-svgicons2svgfont": "0.0.12",
     "gulp-template": "^0.1.1",
     "gulp-rename": "^1.2.0",
-    "q": "^1.0.1"
+    "q": "^1.0.1",
+    "gulp-clean": "^0.3.0"
+  },
+  "dependencies": {
   }
 }

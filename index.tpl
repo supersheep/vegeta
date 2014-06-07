@@ -26,6 +26,7 @@
 <% codepoints.forEach(function(item){ %>
 <span class="font">
   <i class="icon-<%=item.name%>"></i>
+  <%= translate[item.name] %>
 </span>
 <% }); %>
 </div>

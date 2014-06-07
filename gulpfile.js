@@ -10,6 +10,7 @@ var rename = require('gulp-rename');
 var stylus = require('gulp-stylus');
 var clean = require('gulp-clean');
 var Q = require('q');
+var translate = require('./translate');
 
 var codepoints;
 var FONT_DIR = './css/fonts/';
@@ -40,7 +41,8 @@ gulp.task('stylusTpl', ['svg'], function() {
 gulp.task('pageTpl', ['svg'], function() {
   return gulp.src('index.tpl')
     .pipe(template({
-      codepoints: codepoints
+      codepoints: codepoints,
+      translate:translate
     }))
     .pipe(rename({
       extname: ".html"

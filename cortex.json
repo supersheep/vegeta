@@ -2,7 +2,7 @@
   "name": "vegeta",
   "version": "0.1.0",
   "description": "icon-font set for Dianping",
-  "main": "index.js",
+  "css":"css/vegeta.css",
   "repository": "git://code.dianpingoa.com/neurons/vegeta.git",
   "keywords": [
     "iconfont",

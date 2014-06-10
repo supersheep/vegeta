@@ -18,9 +18,6 @@
     "url": "http://code.dianpingoa.com/neurons/vegeta/issues"
   },
   "homepage": "http://code.dianpingoa.com/neurons/vegeta",
-  "directories": {
-    "css": "css"
-  },
   "engines": {
     "neuron": "*"
   },

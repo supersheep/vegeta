@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "icon-font set for Dianping",
   "css":"css/vegeta.css",
+  "scripts":{
+    "prebuild":"gulp"
+  },
   "repository": "git://code.dianpingoa.com/neurons/vegeta.git",
   "keywords": [
     "iconfont",

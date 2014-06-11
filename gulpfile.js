@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var stylus = require('stylus');
 
 var svgicons2svgfont = require('gulp-svgicons2svgfont');
 var svg2ttf = require('gulp-svg2ttf');

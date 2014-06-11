@@ -25,7 +25,6 @@
     "gulp-svgicons2svgfont": "0.0.12",
     "gulp-template": "^0.1.1",
     "gulp-rename": "^1.2.0",
-    "q": "^1.0.1",
     "gulp-clean": "^0.3.0"
   },
   "dependencies": {

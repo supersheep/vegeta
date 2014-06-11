@@ -1,6 +1,6 @@
 node_modules
 neurons
 index.html
-css/vegeta.css
+src/
 css/vegeta.styl
-css/fonts
+css/vegeta.css

@@ -6,6 +6,9 @@
   "scripts":{
     "prebuild":"gulp"
   },
+  "directories":{
+    "src":"src"
+  },
   "repository": "git://code.dianpingoa.com/neurons/vegeta.git",
   "keywords": [
     "iconfont",

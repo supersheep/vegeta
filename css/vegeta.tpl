@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'vegeta';
-  src:url('fonts/vegeta.eot');
-  src:url('fonts/vegeta.eot?#iefix-vucqk5') format('embedded-opentype'),
-    url('fonts/vegeta.woff') format('woff'),
-    url('fonts/vegeta.ttf') format('truetype'),
-    url('fonts/vegeta.svg#vegeta') format('svg');
+  src:url('../src/fonts/vegeta.eot');
+  src:url('../src/fonts/vegeta.eot?#iefix-vucqk5') format('embedded-opentype'),
+    url('../src/fonts/vegeta.woff') format('woff'),
+    url('../src/fonts/vegeta.ttf') format('truetype'),
+    url('../src/fonts/vegeta.svg#vegeta') format('svg');
   font-weight: normal;
   font-style: normal;
 }

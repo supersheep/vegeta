@@ -8,14 +8,13 @@ var template = require('gulp-template');
 var rename = require('gulp-rename');
 var stylus = require('gulp-stylus');
 var clean = require('gulp-clean');
-var Q = require('q');
 var translate = require('./translate');
 
 var codepoints;
-var FONT_DIR = './css/fonts/';
+var FONT_DIR = './src/fonts/';
 
 gulp.task('svg', ['clean'], function() {
-  return gulp.src(['css/svg/*.svg'])
+  return gulp.src(['svg/*.svg'])
     .pipe(svgicons2svgfont({
       fontName: 'vegeta'
     }))
@@ -50,19 +49,19 @@ gulp.task('pageTpl', ['svg'], function() {
 });
 
 gulp.task('ttf', ['svg'], function() {
-  return gulp.src('css/fonts/*.svg')
+  return gulp.src('src/fonts/*.svg')
     .pipe(svg2ttf())
     .pipe(gulp.dest(FONT_DIR))
 });
 
 gulp.task('eot', ['ttf'], function() {
-  return gulp.src(['css/fonts/*.ttf'])
+  return gulp.src(['src/fonts/*.ttf'])
     .pipe(ttf2eot())
     .pipe(gulp.dest(FONT_DIR))
 });
 
 gulp.task('woff', ['ttf'], function() {
-  return gulp.src(['css/fonts/*.ttf'])
+  return gulp.src(['src/fonts/*.ttf'])
     .pipe(ttf2woff())
     .on('error', function(err) {
       console.log(err);
@@ -71,7 +70,7 @@ gulp.task('woff', ['ttf'], function() {
 });
 
 gulp.task('clean', function() {
-  return gulp.src(['css/fonts', 'css/vegeta.styl', 'css/vegeta.css', 'index.html'], {
+  return gulp.src(['src/fonts', 'css/vegeta.styl', 'css/vegeta.css', 'index.html'], {
       read: false
     })
     .pipe(clean())

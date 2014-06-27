@@ -1,10 +1,10 @@
 {
   "name": "vegeta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "icon-font set for Dianping",
   "css":"css/vegeta.css",
   "scripts":{
-    "prebuild":"gulp"
+    "prebuild":"node_modules/.bin/gulp"
   },
   "directories":{
     "src":"src"

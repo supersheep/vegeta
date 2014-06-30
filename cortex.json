@@ -9,7 +9,7 @@
   "directories":{
     "src":"src"
   },
-  "repository": "git://code.dianpingoa.com/neurons/vegeta.git",
+  "repository": "git@github.com:supersheep/vegeta.git",
   "keywords": [
     "iconfont",
     "icon",
@@ -21,9 +21,9 @@
     "email": "supersheepxjy@gmail.com"
   },
   "bugs": {
-    "url": "http://code.dianpingoa.com/neurons/vegeta/issues"
+    "url": "https://github.com/supersheep/vegeta/issues"
   },
-  "homepage": "http://code.dianpingoa.com/neurons/vegeta",
+  "homepage": "https://github.com/supersheep/vegeta",
   "devDependencies": {
     "assert": "*"
   }
